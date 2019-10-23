@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Take_Rate__c</fullName>
+    <description>Estimated Take Rate on monthly volume.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Estimated Take Rate on monthly volume. Enter a whole number (like 20) to represent a percent.</inlineHelpText>
+    <label>Take Rate</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

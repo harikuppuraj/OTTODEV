@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trade_Associations__c</fullName>
+    <description>These are trade groups this company is a member of.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>These are trade groups this company is a member of.</inlineHelpText>
+    <label>Trade Associations</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>RLA</fullName>
+                <default>false</default>
+                <label>RLA</label>
+            </value>
+            <value>
+                <fullName>RPA</fullName>
+                <default>false</default>
+                <label>RPA</label>
+            </value>
+            <value>
+                <fullName>Brewers Association</fullName>
+                <default>false</default>
+                <label>Brewers Association</label>
+            </value>
+            <value>
+                <fullName>ELFA</fullName>
+                <default>false</default>
+                <label>ELFA</label>
+            </value>
+            <value>
+                <fullName>NEFA</fullName>
+                <default>false</default>
+                <label>NEFA</label>
+            </value>
+            <value>
+                <fullName>BTA</fullName>
+                <default>false</default>
+                <label>BTA</label>
+            </value>
+            <value>
+                <fullName>CDA</fullName>
+                <default>false</default>
+                <label>CDA</label>
+            </value>
+            <value>
+                <fullName>IBPI</fullName>
+                <default>false</default>
+                <label>IBPI</label>
+            </value>
+            <value>
+                <fullName>Pro Dealers Group</fullName>
+                <default>false</default>
+                <label>Pro Dealers Group</label>
+            </value>
+            <value>
+                <fullName>Select Dealers Group</fullName>
+                <default>false</default>
+                <label>Select Dealers Group</label>
+            </value>
+            <value>
+                <fullName>American Co-op (Sharp)</fullName>
+                <default>false</default>
+                <label>American Co-op (Sharp)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

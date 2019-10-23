@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendors</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Contact_Type__c</columns>
+    <columns>ACCOUNT.INDUSTRY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Contact_Type__c</field>
+        <operation>includes</operation>
+        <value>Vendor/Supplier</value>
+    </filters>
+    <label>Vendors</label>
+</ListView>

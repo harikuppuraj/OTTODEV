@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lessors__c</fullName>
+    <externalId>false</externalId>
+    <label>Lessors</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DLL</fullName>
+                <default>false</default>
+                <label>DLL</label>
+            </value>
+            <value>
+                <fullName>GE Capital</fullName>
+                <default>false</default>
+                <label>GE Capital</label>
+            </value>
+            <value>
+                <fullName>Great America</fullName>
+                <default>false</default>
+                <label>Great America</label>
+            </value>
+            <value>
+                <fullName>Leaf</fullName>
+                <default>false</default>
+                <label>Leaf</label>
+            </value>
+            <value>
+                <fullName>Marlin</fullName>
+                <default>false</default>
+                <label>Marlin</label>
+            </value>
+            <value>
+                <fullName>US Bank</fullName>
+                <default>false</default>
+                <label>US Bank</label>
+            </value>
+            <value>
+                <fullName>Wells Fargo</fullName>
+                <default>false</default>
+                <label>Wells Fargo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

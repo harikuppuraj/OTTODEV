@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Glass_Racks</fullName>
+    <columns>LEAD.INDUSTRY</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>LEAD.LAST_ACTIVITY</columns>
+    <columns>LEAD.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.INDUSTRY</field>
+        <operation>equals</operation>
+        <value>Glass Racks</value>
+    </filters>
+    <label>Glass Racks</label>
+</ListView>

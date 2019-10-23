@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industrial_Wire_Reels</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.TITLE</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>LEAD.URL</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.INDUSTRY</field>
+        <operation>equals</operation>
+        <value>Industrial Wire Reels</value>
+    </filters>
+    <label>Industrial Wire Reels</label>
+</ListView>

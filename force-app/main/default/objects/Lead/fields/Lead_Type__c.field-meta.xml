@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Lead Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GetAPrint</fullName>
+                <default>false</default>
+                <label>GetAPrint</label>
+            </value>
+            <value>
+                <fullName>Copier Dealer</fullName>
+                <default>false</default>
+                <label>Copier Dealer</label>
+            </value>
+            <value>
+                <fullName>Logistics Provider</fullName>
+                <default>false</default>
+                <label>Logistics Provider</label>
+            </value>
+            <value>
+                <fullName>Lessor</fullName>
+                <default>false</default>
+                <label>Lessor</label>
+            </value>
+            <value>
+                <fullName>Recycler/Remarketer</fullName>
+                <default>false</default>
+                <label>Recycler/Remarketer</label>
+            </value>
+            <value>
+                <fullName>OEM/Retailer/VAR</fullName>
+                <default>false</default>
+                <label>OEM/Retailer/VAR</label>
+            </value>
+            <value>
+                <fullName>Vendor/Supplier</fullName>
+                <default>false</default>
+                <label>Vendor/Supplier</label>
+            </value>
+            <value>
+                <fullName>Common Shareholder</fullName>
+                <default>false</default>
+                <label>Common Shareholder</label>
+            </value>
+            <value>
+                <fullName>Potential Investor</fullName>
+                <default>false</default>
+                <label>Potential Investor</label>
+            </value>
+            <value>
+                <fullName>industry Organization/Association</fullName>
+                <default>false</default>
+                <label>industry Organization/Association</label>
+            </value>
+            <value>
+                <fullName>ATM Installer/Deinstaller</fullName>
+                <default>false</default>
+                <label>ATM Installer/Deinstaller</label>
+            </value>
+            <value>
+                <fullName>Sendium Customer</fullName>
+                <default>false</default>
+                <label>Sendium Customer</label>
+            </value>
+            <value>
+                <fullName>Sendium Hub</fullName>
+                <default>false</default>
+                <label>Sendium Hub</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

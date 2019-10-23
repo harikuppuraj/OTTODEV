@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bio_Background__c</fullName>
+    <description>Resume info.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Resume info.</inlineHelpText>
+    <label>Bio/Background</label>
+    <length>10000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>LongTextArea</type>
+    <visibleLines>6</visibleLines>
+</CustomField>

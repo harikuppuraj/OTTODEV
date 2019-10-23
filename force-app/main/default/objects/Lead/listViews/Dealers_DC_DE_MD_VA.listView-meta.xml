@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dealers_DC_DE_MD_VA</fullName>
+    <booleanFilter>(1 OR 2 OR 3 OR 4) AND 5</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.STATE</field>
+        <operation>equals</operation>
+        <value>DC</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATE</field>
+        <operation>equals</operation>
+        <value>MD</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATE</field>
+        <operation>equals</operation>
+        <value>VA</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATE</field>
+        <operation>equals</operation>
+        <value>DE</value>
+    </filters>
+    <filters>
+        <field>LEAD.INDUSTRY</field>
+        <operation>equals</operation>
+        <value>Office Equipment/Copier Dealer</value>
+    </filters>
+    <label>Dealers: DC-DE-MD-VA</label>
+</ListView>

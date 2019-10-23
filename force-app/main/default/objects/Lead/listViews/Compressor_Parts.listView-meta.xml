@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Compressor_Parts</fullName>
+    <columns>LEAD.INDUSTRY</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.INDUSTRY</field>
+        <operation>equals</operation>
+        <value>Compressor Parts</value>
+    </filters>
+    <label>Compressor Parts</label>
+</ListView>

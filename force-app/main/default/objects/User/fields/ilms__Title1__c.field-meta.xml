@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ilms__Title1__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Title1</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Conseiller</fullName>
+                <default>false</default>
+                <label>Conseiller</label>
+            </value>
+            <value>
+                <fullName>Responsable d&#39;équipe /Superviseur</fullName>
+                <default>false</default>
+                <label>Responsable d&#39;équipe /Superviseur</label>
+            </value>
+            <value>
+                <fullName>Responsable de portefeuille</fullName>
+                <default>false</default>
+                <label>Responsable de portefeuille</label>
+            </value>
+            <value>
+                <fullName>Patron du call center</fullName>
+                <default>false</default>
+                <label>Patron du call center</label>
+            </value>
+            <value>
+                <fullName>Siège &amp; Admin LMS</fullName>
+                <default>false</default>
+                <label>Siège &amp; Admin LMS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

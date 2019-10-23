@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asset_Classes__c</fullName>
+    <description>What asset classes would we be providing shipping solutions for?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What asset classes would we be providing shipping solutions for?</inlineHelpText>
+    <label>Asset Classes for RC</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>RC-Dunnage</fullName>
+                <default>false</default>
+                <label>RC-Dunnage</label>
+            </value>
+            <value>
+                <fullName>RC_Reusable Packaging</fullName>
+                <default>false</default>
+                <label>RC–Reusable Packaging</label>
+            </value>
+            <value>
+                <fullName>RC–IT–Computers &amp; Peripheral</fullName>
+                <default>false</default>
+                <label>RC–IT–Computers &amp; Peripheral</label>
+            </value>
+            <value>
+                <fullName>RC–IT–Networking/Telecom</fullName>
+                <default>false</default>
+                <label>RC–IT–Networking/Telecom</label>
+            </value>
+            <value>
+                <fullName>RC–Medical</fullName>
+                <default>false</default>
+                <label>RC–Medical</label>
+            </value>
+            <value>
+                <fullName>RC-Medical Waste</fullName>
+                <default>false</default>
+                <label>RC-Medical Waste</label>
+            </value>
+            <value>
+                <fullName>RC–Non-Medical Instruments</fullName>
+                <default>false</default>
+                <label>RC–Non-Medical Instruments</label>
+            </value>
+            <value>
+                <fullName>RC-OE–Mailing Equipment</fullName>
+                <default>false</default>
+                <label>RC-OE–Mailing Equipment</label>
+            </value>
+            <value>
+                <fullName>RC-OE–Office &amp; Accounting</fullName>
+                <default>false</default>
+                <label>RC-OE–Office &amp; Accounting</label>
+            </value>
+            <value>
+                <fullName>RC-OE–Photocopy &amp; Related</fullName>
+                <default>false</default>
+                <label>RC-OE–Photocopy &amp; Related</label>
+            </value>
+            <value>
+                <fullName>NonRC– IND–Fabricated Metal Products</fullName>
+                <default>false</default>
+                <label>NonRC– IND–Fabricated Metal Products</label>
+            </value>
+            <value>
+                <fullName>NonRC–Indl - Forklifts/Materials hand</fullName>
+                <default>false</default>
+                <label>NonRC–Indl - Forklifts/Materials hand</label>
+            </value>
+            <value>
+                <fullName>NonRC–IND–Metalworking Machinery</fullName>
+                <default>false</default>
+                <label>NonRC–IND–Metalworking Machinery</label>
+            </value>
+            <value>
+                <fullName>NonRC–IND–Special Ind&#39;l Machinery, NEC</fullName>
+                <default>false</default>
+                <label>NonRC–IND–Special Ind&#39;l Machinery, NEC</label>
+            </value>
+            <value>
+                <fullName>NonRC– Other–Agricultural Machinery</fullName>
+                <default>false</default>
+                <label>NonRC– Other–Agricultural Machinery</label>
+            </value>
+            <value>
+                <fullName>NonRC–Other–Constr. Machinery</fullName>
+                <default>false</default>
+                <label>NonRC–Other–Constr. Machinery</label>
+            </value>
+            <value>
+                <fullName>NonRC– Other–Mining &amp; Oilfield Mach</fullName>
+                <default>false</default>
+                <label>NonRC– Other–Mining &amp; Oilfield Mach</label>
+            </value>
+            <value>
+                <fullName>NonRC–Software</fullName>
+                <default>false</default>
+                <label>NonRC–Software</label>
+            </value>
+            <value>
+                <fullName>NonRC– TRANS–Aircraft</fullName>
+                <default>false</default>
+                <label>NonRC– TRANS–Aircraft</label>
+            </value>
+            <value>
+                <fullName>NonRC– TRANS–Automobiles</fullName>
+                <default>false</default>
+                <label>NonRC– TRANS–Automobiles</label>
+            </value>
+            <value>
+                <fullName>NonRC– TRANS–Railroad Equipment</fullName>
+                <default>false</default>
+                <label>NonRC– TRANS–Railroad Equipment</label>
+            </value>
+            <value>
+                <fullName>NonRC– TRANS–Ships &amp; Boats</fullName>
+                <default>false</default>
+                <label>NonRC– TRANS–Ships &amp; Boats</label>
+            </value>
+            <value>
+                <fullName>NonRC–TRANS–Trucks, Trailers &amp; Buses</fullName>
+                <default>false</default>
+                <label>NonRC–TRANS–Trucks, Trailers &amp; Buses</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

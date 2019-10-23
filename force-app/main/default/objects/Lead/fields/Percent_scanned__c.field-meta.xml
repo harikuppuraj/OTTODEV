@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Percent_scanned__c</fullName>
+    <description>What portion of the total volume requires onsite scanning?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What portion of the total volume requires onsite scanning?</inlineHelpText>
+    <label>Percent scanned</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Percent</type>
+</CustomField>

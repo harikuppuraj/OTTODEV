@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Returnable_Asset_Quantity__c</fullName>
+    <description>About how many reusable packaging assets do they have that can be used for Track &amp; Trace?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>About how many reusable packaging assets do they have that can be used for Track &amp; Trace?</inlineHelpText>
+    <label>Reusable Assets for T&amp;T</label>
+    <precision>8</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SFGA__Correlation_Data__c</fullName>
+    <defaultValue>&quot;none&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The Correlation Data field is designed for use by Salesforce for Google AdWords to store all relevant lead tracking information about a web generated lead</description>
+    <externalId>false</externalId>
+    <label>Correlation Data</label>
+    <length>32000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

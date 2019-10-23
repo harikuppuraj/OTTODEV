@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CDA_List</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>NumberOfEmployees__c</columns>
+    <columns>No_of_Locations__c</columns>
+    <columns>Trade_Groups__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Trade_Groups__c</field>
+        <operation>includes</operation>
+        <value>CDA</value>
+    </filters>
+    <label>CDA List</label>
+</ListView>

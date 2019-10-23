@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asset_Classes_for_RC__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(INCLUDES(Account.Asset_Classes__c, &quot;RC–IT–Computers &amp; Peripheral&quot;), &quot;RC–IT–Computers &amp; Peripheral; &quot;, NULL) +
+IF(INCLUDES(Account.Asset_Classes__c, &quot;RC–IT–Networking/Telecom&quot;), &quot;RC–IT–Networking/Telecom; &quot;, NULL) +
+IF(INCLUDES(Account.Asset_Classes__c, &quot;RC–Medical&quot;), &quot;RC–Medical; &quot;, NULL) +
+IF(INCLUDES(Account.Asset_Classes__c, &quot;RC–Non-Medical Instruments&quot;), &quot;RC–Non-Medical Instruments; &quot;, NULL) +
+IF(INCLUDES(Account.Asset_Classes__c, &quot;RC-OE–Mailing Equipment&quot;), &quot;RC-OE–Mailing Equipment; &quot;, NULL) +
+IF(INCLUDES(Account.Asset_Classes__c, &quot;RC-OE–Office &amp; Accounting&quot;), &quot;RC-OE–Office &amp; Accounting; &quot;, NULL) +
+IF(INCLUDES(Account.Asset_Classes__c, &quot;RC-OE–Photocopy &amp; Related&quot;), &quot;RC-OE–Photocopy &amp; Related; &quot;, NULL) +
+IF(INCLUDES(Account.Asset_Classes__c, &quot;NonRC– IND–Fabricated Metal Products&quot;), &quot;NonRC– IND–Fabricated Metal Products; &quot;, NULL) +
+IF(INCLUDES(Account.Asset_Classes__c, &quot;NonRC–Indl - Forklifts/Materials hand&quot;), &quot;NonRC–Indl - Forklifts/Materials hand; &quot;, NULL) +
+IF(INCLUDES(Account.Asset_Classes__c, &quot;NonRC–IND–Metalworking Machinery&quot;), &quot;NonRC–IND–Metalworking Machinery; &quot;, NULL) +
+IF(INCLUDES(Account.Asset_Classes__c, &quot;NonRC–IND–Special Ind&#39;l Machinery, NEC&quot;), &quot;NonRC–IND–Special Ind&#39;l Machinery, NEC; &quot;, NULL) +
+IF(INCLUDES(Account.Asset_Classes__c, &quot;NonRC– Other–Agricultural Machinery&quot;), &quot;NonRC– Other–Agricultural Machinery; &quot;, NULL) +
+IF(INCLUDES(Account.Asset_Classes__c, &quot;NonRC–Other–Constr. Machinery&quot;), &quot;NonRC–Other–Constr. Machinery; &quot;, NULL) +
+IF(INCLUDES(Account.Asset_Classes__c, &quot;NonRC–Other–Construction Machinery&quot;), &quot;NonRC–Other–Construction Machinery; &quot;, NULL) +
+IF(INCLUDES(Account.Asset_Classes__c, &quot;NonRC– Other–Mining &amp; Oilfield Mach&quot;), &quot;NonRC– Other–Mining &amp; Oilfield Mach; &quot;, NULL) +
+IF(INCLUDES(Account.Asset_Classes__c, &quot;NonRC–Software&quot;), &quot;NonRC–Software; &quot;, NULL) +
+IF(INCLUDES(Account.Asset_Classes__c, &quot;NonRC– TRANS–Aircraft&quot;), &quot;NonRC– TRANS–Aircraft; &quot;, NULL) +
+IF(INCLUDES(Account.Asset_Classes__c, &quot;NonRC– TRANS–Railroad Equipment&quot;), &quot;NonRC– TRANS–Railroad Equipment; &quot;, NULL) +
+IF(INCLUDES(Account.Asset_Classes__c, &quot;NonRC– TRANS–Ships &amp; Boats&quot;), &quot;NonRC– TRANS–Ships &amp; Boats; &quot;, NULL) +
+IF(INCLUDES(Account.Asset_Classes__c, &quot;NonRC–TRANS–Trucks, Trailers &amp; Buses&quot;), &quot;NonRC–TRANS–Trucks, Trailers &amp; Buses; &quot;, NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Asset Classes for RC</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

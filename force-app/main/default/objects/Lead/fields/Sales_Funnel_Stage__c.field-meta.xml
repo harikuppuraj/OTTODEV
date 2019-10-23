@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Funnel_Stage__c</fullName>
+    <externalId>false</externalId>
+    <label>Sales Funnel Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Positioned</fullName>
+                <default>true</default>
+                <label>Positioned</label>
+            </value>
+            <value>
+                <fullName>Pending</fullName>
+                <default>false</default>
+                <label>Pending</label>
+            </value>
+            <value>
+                <fullName>Promised</fullName>
+                <default>false</default>
+                <label>Promised</label>
+            </value>
+            <value>
+                <fullName>Producing</fullName>
+                <default>false</default>
+                <label>Producing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

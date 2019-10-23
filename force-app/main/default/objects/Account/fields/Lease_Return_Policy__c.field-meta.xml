@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lease_Return_Policy__c</fullName>
+    <description>Lessor&#39;s policies for renewal and renewal notifications/communications.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lessor&#39;s policies for renewal and renewal notifications/communications.</inlineHelpText>
+    <label>Lease Return Policy</label>
+    <length>2000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

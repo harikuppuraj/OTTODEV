@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asset_Classes_for_RC__c</fullName>
+    <description>What classes of assets do they return? (eg, Copiers, IT, etc)</description>
+    <externalId>false</externalId>
+    <label>Asset Classes for RC</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>RC-Compressor Parts</fullName>
+                <default>false</default>
+                <label>RC-Compressor Parts</label>
+            </value>
+            <value>
+                <fullName>RC-Dunnage</fullName>
+                <default>false</default>
+                <label>RC-Dunnage</label>
+            </value>
+            <value>
+                <fullName>RC-IT-Computers &amp; Peripheral</fullName>
+                <default>false</default>
+                <label>RC-IT-Computers &amp; Peripheral</label>
+            </value>
+            <value>
+                <fullName>RC-IT-Networking/Telecom</fullName>
+                <default>false</default>
+                <label>RC-IT-Networking/Telecom</label>
+            </value>
+            <value>
+                <fullName>RC-Medical</fullName>
+                <default>false</default>
+                <label>RC-Medical</label>
+            </value>
+            <value>
+                <fullName>RC-Non-Medical Instruments</fullName>
+                <default>false</default>
+                <label>RC-Non-Medical Instruments</label>
+            </value>
+            <value>
+                <fullName>RC-OE-Mailing Equipment</fullName>
+                <default>false</default>
+                <label>RC-OE-Mailing Equipment</label>
+            </value>
+            <value>
+                <fullName>RC-OE-Office &amp; Accounting</fullName>
+                <default>false</default>
+                <label>RC-OE-Office &amp; Accounting</label>
+            </value>
+            <value>
+                <fullName>RC-OE-Photocopy &amp; Related</fullName>
+                <default>false</default>
+                <label>RC-OE-Photocopy &amp; Related</label>
+            </value>
+            <value>
+                <fullName>NonRC-IND-Fabricated Metal Products</fullName>
+                <default>false</default>
+                <label>NonRC-IND-Fabricated Metal Products</label>
+            </value>
+            <value>
+                <fullName>NonRC-IND-Forklifts/Mat’ls handling</fullName>
+                <default>false</default>
+                <label>NonRC-IND-Forklifts/Mat’ls handling</label>
+            </value>
+            <value>
+                <fullName>NonRC-IND-Metalworking Machinery</fullName>
+                <default>false</default>
+                <label>NonRC-IND-Metalworking Machinery</label>
+            </value>
+            <value>
+                <fullName>NonRC-IND-Special Ind’l Machinery, NEC</fullName>
+                <default>false</default>
+                <label>NonRC-IND-Special Ind’l Machinery, NEC</label>
+            </value>
+            <value>
+                <fullName>NonRC-Other-Agricultural Machinery</fullName>
+                <default>false</default>
+                <label>NonRC-Other-Agricultural Machinery</label>
+            </value>
+            <value>
+                <fullName>NonRC-Other-Constr. Machinery</fullName>
+                <default>false</default>
+                <label>NonRC-Other-Constr. Machinery</label>
+            </value>
+            <value>
+                <fullName>NonRC-Other-Mining &amp; Oilfield Mach.</fullName>
+                <default>false</default>
+                <label>NonRC-Other-Mining &amp; Oilfield Mach.</label>
+            </value>
+            <value>
+                <fullName>NonRC-Software</fullName>
+                <default>false</default>
+                <label>NonRC-Software</label>
+            </value>
+            <value>
+                <fullName>NonRC-TRANS-Aircraft</fullName>
+                <default>false</default>
+                <label>NonRC-TRANS-Aircraft</label>
+            </value>
+            <value>
+                <fullName>NonRC-TRANS-Railroad Equipment</fullName>
+                <default>false</default>
+                <label>NonRC-TRANS-Railroad Equipment</label>
+            </value>
+            <value>
+                <fullName>NonRC-TRANS-Ships &amp; Boats</fullName>
+                <default>false</default>
+                <label>NonRC-TRANS-Ships &amp; Boats</label>
+            </value>
+            <value>
+                <fullName>NonRC-TRANS-Trucks, Trailers &amp; Buses</fullName>
+                <default>false</default>
+                <label>NonRC-TRANS-Trucks, Trailers &amp; Buses</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

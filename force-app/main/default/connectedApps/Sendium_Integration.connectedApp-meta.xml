@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>paul.pritchard@onepak.com</contactEmail>
+    <infoUrl>https://www.sendium.com</infoUrl>
+    <label>Sendium Integration</label>
+    <oauthConfig>
+        <callbackUrl>https://na33.salesforce.com/services/oauth2/token</callbackUrl>
+        <consumerKey>3MVG9VmVOCGHKYBTalbuTqpBnwXiPoe_jAJ.QK82MQNylIOOrbBckpPZ9J1yxHDO_SOVXuAJ1p7wYlTlwS0OD</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>Chatter</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+        <scopes>CustomPermissions</scopes>
+        <scopes>Wave</scopes>
+        <scopes>Eclair</scopes>
+    </oauthConfig>
+</ConnectedApp>

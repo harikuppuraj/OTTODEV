@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Monthly_Volume__c</fullName>
+    <description>Estimated number of RAs or returns they currently have for this asset class.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Estimated number of RAs or returns they currently have for this asset class.</inlineHelpText>
+    <label>Monthly Volume</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

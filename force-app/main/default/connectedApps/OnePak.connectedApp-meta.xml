@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>paul.pritchard@onepak.com</contactEmail>
+    <description>Integration with OnePak portal</description>
+    <infoUrl>https://www.onepak.com</infoUrl>
+    <label>OnePak</label>
+    <logoUrl>https://otto--c.na119.content.force.com/servlet/servlet.ImageServer?id=0153p000003X81f&amp;oid=00D70000000KCZd</logoUrl>
+    <oauthConfig>
+        <callbackUrl>https://otto.salesforce.com/services/oauth2/callback</callbackUrl>
+        <consumerKey>3MVG9VmVOCGHKYBTalbuTqpBnwS8OOI63tVLoWqquXl0Y6OGiW4HKWxHMANEadRHuD2rWRwtc_NyVK09atYGH</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <scopes>Api</scopes>
+        <scopes>Full</scopes>
+    </oauthConfig>
+</ConnectedApp>

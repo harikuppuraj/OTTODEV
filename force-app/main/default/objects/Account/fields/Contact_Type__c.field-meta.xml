@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Type__c</fullName>
+    <description>Category / industry of company or contact</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the category contacts from this company will fall within</inlineHelpText>
+    <label>Business Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Copier Dealer</fullName>
+                <default>false</default>
+                <label>Copier Dealer</label>
+            </value>
+            <value>
+                <fullName>Industry Organization/Association</fullName>
+                <default>false</default>
+                <label>Industry Organization/Association</label>
+            </value>
+            <value>
+                <fullName>Lessor</fullName>
+                <default>false</default>
+                <label>Lessor</label>
+            </value>
+            <value>
+                <fullName>Local Agent</fullName>
+                <default>false</default>
+                <label>Local Agent</label>
+            </value>
+            <value>
+                <fullName>Logistics Provider</fullName>
+                <default>false</default>
+                <label>Logistics Provider/3PL</label>
+            </value>
+            <value>
+                <fullName>OEM / Retailer / VAR</fullName>
+                <default>false</default>
+                <label>OEM / Retailer / VAR</label>
+            </value>
+            <value>
+                <fullName>Potential Investor</fullName>
+                <default>false</default>
+                <label>Potential Investor</label>
+            </value>
+            <value>
+                <fullName>Recycler/Remarketer</fullName>
+                <default>false</default>
+                <label>Recycler/Remarketer</label>
+            </value>
+            <value>
+                <fullName>Reusable Packaging User</fullName>
+                <default>false</default>
+                <label>Reusable Packaging User</label>
+            </value>
+            <value>
+                <fullName>RFID</fullName>
+                <default>false</default>
+                <label>RFID</label>
+            </value>
+            <value>
+                <fullName>Track &amp; Trace Reseller</fullName>
+                <default>false</default>
+                <label>Track &amp; Trace Reseller</label>
+            </value>
+            <value>
+                <fullName>Vendor/Supplier</fullName>
+                <default>false</default>
+                <label>Vendor/Supplier</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

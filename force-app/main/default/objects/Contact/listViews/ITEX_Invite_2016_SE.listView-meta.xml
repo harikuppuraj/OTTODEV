@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ITEX_Invite_2016_SE</fullName>
+    <booleanFilter>1 AND 7 AND 8 AND (2 OR 3 OR 4 OR 5 OR 6 OR 9 or 10)</booleanFilter>
+    <columns>Trade_Groups__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.ADDRESS2_STATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.ADDRESS2_STATE</field>
+        <operation>equals</operation>
+        <value>FL</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_STATE</field>
+        <operation>equals</operation>
+        <value>GA</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_STATE</field>
+        <operation>equals</operation>
+        <value>SC</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_STATE</field>
+        <operation>equals</operation>
+        <value>NC</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_STATE</field>
+        <operation>equals</operation>
+        <value>VA</value>
+    </filters>
+    <filters>
+        <field>CONTACT.EMAIL</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Sales_Funnel_Stage__c</field>
+        <operation>notEqual</operation>
+        <value>Declined SRS</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_STATE</field>
+        <operation>equals</operation>
+        <value>NY</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_STATE</field>
+        <operation>equals</operation>
+        <value>NJ</value>
+    </filters>
+    <label>ITEX Invite 2016 - SE</label>
+</ListView>

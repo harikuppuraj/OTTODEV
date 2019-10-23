@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Services__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Lines of business this account currently buys on a regular basis</inlineHelpText>
+    <label>Current Services</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Scheduled Returns</fullName>
+                <default>false</default>
+                <label>Scheduled Returns</label>
+            </value>
+            <value>
+                <fullName>ReturnCenter Referral</fullName>
+                <default>false</default>
+                <label>ReturnCenter Referral</label>
+            </value>
+            <value>
+                <fullName>ReturnCenter Connected</fullName>
+                <default>false</default>
+                <label>ReturnCenter Connected</label>
+            </value>
+            <value>
+                <fullName>ReturnCenter Integrated</fullName>
+                <default>false</default>
+                <label>ReturnCenter Integrated</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

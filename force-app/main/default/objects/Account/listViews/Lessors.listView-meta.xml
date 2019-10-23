@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lessors</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Reason_to_Pursue_Not_Pursue__c</columns>
+    <columns>ACCOUNT.RATING</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.INDUSTRY</field>
+        <operation>contains</operation>
+        <value>financ</value>
+    </filters>
+    <label>Lessors</label>
+</ListView>

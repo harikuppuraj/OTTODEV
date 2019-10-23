@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prospective_Products__c</fullName>
+    <description>These are the mostly likely products to be purchased by this lead.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>These are the mostly likely products to be purchased by this lead.</inlineHelpText>
+    <label>Prospective Products</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Scheduled Returns</fullName>
+                <default>false</default>
+                <label>Scheduled Returns</label>
+            </value>
+            <value>
+                <fullName>ReturnCenter-Referral</fullName>
+                <default>false</default>
+                <label>ReturnCenter-Referral</label>
+            </value>
+            <value>
+                <fullName>ReturnCenter-Connected</fullName>
+                <default>false</default>
+                <label>ReturnCenter-Connected</label>
+            </value>
+            <value>
+                <fullName>ReturnCenter-Integrated</fullName>
+                <default>false</default>
+                <label>ReturnCenter-Integrated</label>
+            </value>
+            <value>
+                <fullName>Commodity Tracking/OEM Takeback</fullName>
+                <default>false</default>
+                <label>Commodity Tracking/OEM Takeback</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

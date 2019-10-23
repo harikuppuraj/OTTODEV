@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JL_Comments__c</fullName>
+    <description>Joe Lane&#39;s Comments on this account</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Joe Lane&#39;s Comments on this account</inlineHelpText>
+    <label>JL Comments</label>
+    <length>3000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>LongTextArea</type>
+    <visibleLines>2</visibleLines>
+</CustomField>

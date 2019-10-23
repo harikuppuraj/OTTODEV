@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BTA_District__c</fullName>
+    <externalId>false</externalId>
+    <label>BTA District</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Eastern</fullName>
+                <default>false</default>
+                <label>Eastern</label>
+            </value>
+            <value>
+                <fullName>West</fullName>
+                <default>false</default>
+                <label>West</label>
+            </value>
+            <value>
+                <fullName>MidAmerica</fullName>
+                <default>false</default>
+                <label>MidAmerica</label>
+            </value>
+            <value>
+                <fullName>Southeast</fullName>
+                <default>false</default>
+                <label>Southeast</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

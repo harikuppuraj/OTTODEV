@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Specialization__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(INCLUDES(Account.Specialization__c, &quot;Bins&quot;), &quot;Bins; &quot;, NULL) + 
+IF(INCLUDES(Account.Specialization__c, &quot;ATMs&quot;), &quot;ATMs; &quot;, NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Specialization</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

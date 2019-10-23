@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Community_User__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If this flag is true then this contact should be eligible for creating customer community user</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If this flag is true then this contact should be eligible for creating customer community user</inlineHelpText>
+    <label>Is Community User</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dealers_Northeast</fullName>
+    <booleanFilter>(1 or 2 or 3 or 4 or 5 or 6) AND 7</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.STATE</field>
+        <operation>equals</operation>
+        <value>PA</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATE</field>
+        <operation>equals</operation>
+        <value>NJ</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATE</field>
+        <operation>equals</operation>
+        <value>NY</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATE</field>
+        <operation>equals</operation>
+        <value>CT</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATE</field>
+        <operation>equals</operation>
+        <value>RI</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATE</field>
+        <operation>equals</operation>
+        <value>MA</value>
+    </filters>
+    <filters>
+        <field>LEAD.LEAD_SOURCE</field>
+        <operation>equals</operation>
+        <value>BTA</value>
+    </filters>
+    <label>Dealers: Northeast</label>
+</ListView>

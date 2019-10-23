@@ -1,0 +1,20 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	<aura:attribute name="title" type="String" default=" Contact Us"/>
+    <lightning:card>
+        <aura:set attribute="title">
+            <lightning:icon iconName="utility:contact_request" size="small"/>
+            {! v.title }
+        </aura:set>
+        <aura:set attribute="footer">
+       
+        </aura:set>
+        <div style="margin-left:40px;">
+        Shawn Stockman<br/>
+        OnePak Technical Training Online<br/>
+        <!--<lightning:icon iconName="utility:email" size="small"/>-->
+        shawn@onepak.com<br/>   
+        <!-- <lightning:icon iconName="utility:call" size="small"/>-->
+        207-236-4222<br/>
+            </div>
+    </lightning:card>
+</aura:component>
