@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If the course has been published, this field will be checked.  This prevents any Pages or Quizzes from being added or deleted as this will affect the data integrity. --></help>
+    <label><!-- wasPublished --></label>
+    <name>ilms__wasPublished__c</name>
+</CustomFieldTranslation>

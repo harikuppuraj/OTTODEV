@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Call Center1 --></label>
+    <name>ilms__Call_Center1__c</name>
+    <picklistValues>
+        <masterLabel>Call Center 1</masterLabel>
+        <translation><!-- Call Center 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Call Center 2</masterLabel>
+        <translation><!-- Call Center 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Call Center 3</masterLabel>
+        <translation><!-- Call Center 3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Call Center 4</masterLabel>
+        <translation><!-- Call Center 4 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Call Center 5</masterLabel>
+        <translation><!-- Call Center 5 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

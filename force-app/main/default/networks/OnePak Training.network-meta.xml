@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Network xmlns="http://soap.sforce.com/2006/04/metadata">
+    <allowInternalUserLogin>false</allowInternalUserLogin>
+    <allowMembersToFlag>false</allowMembersToFlag>
+    <changePasswordTemplate>unfiled$public/CommunityChangePasswordEmailTemplate</changePasswordTemplate>
+    <communityRoles/>
+    <disableReputationRecordConversations>true</disableReputationRecordConversations>
+    <emailSenderAddress>hari.kuppuraj@onepak.com</emailSenderAddress>
+    <emailSenderName>OnePak Training</emailSenderName>
+    <enableCustomVFErrorPageOverrides>false</enableCustomVFErrorPageOverrides>
+    <enableDirectMessages>true</enableDirectMessages>
+    <enableGuestChatter>false</enableGuestChatter>
+    <enableGuestFileAccess>true</enableGuestFileAccess>
+    <enableInvitation>false</enableInvitation>
+    <enableKnowledgeable>false</enableKnowledgeable>
+    <enableNicknameDisplay>false</enableNicknameDisplay>
+    <enablePrivateMessages>false</enablePrivateMessages>
+    <enableReputation>false</enableReputation>
+    <enableShowAllNetworkSettings>false</enableShowAllNetworkSettings>
+    <enableSiteAsContainer>true</enableSiteAsContainer>
+    <enableTalkingAboutStats>true</enableTalkingAboutStats>
+    <enableTopicAssignmentRules>true</enableTopicAssignmentRules>
+    <enableTopicSuggestions>false</enableTopicSuggestions>
+    <enableUpDownVote>false</enableUpDownVote>
+    <forgotPasswordTemplate>unfiled$public/CommunityForgotPasswordEmailTemplate</forgotPasswordTemplate>
+    <gatherCustomerSentimentData>false</gatherCustomerSentimentData>
+    <navigationLinkSet>
+        <navigationMenuItem>
+            <label>Support</label>
+            <position>1</position>
+            <publiclyAvailable>false</publiclyAvailable>
+            <target>/contactsupport</target>
+            <type>InternalLink</type>
+        </navigationMenuItem>
+        <navigationMenuItem>
+            <label>Training</label>
+            <position>2</position>
+            <publiclyAvailable>true</publiclyAvailable>
+            <target>/training</target>
+            <type>InternalLink</type>
+        </navigationMenuItem>
+    </navigationLinkSet>
+    <networkMemberGroups>
+        <permissionSet>ilms__Impact_LMS_Admin</permissionSet>
+        <permissionSet>ilms__Impact_LMS_Learner</permissionSet>
+        <permissionSet>ilms__Impact_LMS_Author</permissionSet>
+        <permissionSet>Manage_Survey</permissionSet>
+        <profile>Admin</profile>
+        <profile>ContractManager</profile>
+        <profile>Chatter Moderator User</profile>
+        <profile>Chatter Free User</profile>
+        <profile>MarketingProfile</profile>
+        <profile>SolutionManager</profile>
+        <profile>Standard</profile>
+        <profile>ReadOnly</profile>
+        <profile>Customer Community Login User</profile>
+    </networkMemberGroups>
+    <networkPageOverrides>
+        <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
+        <forgotPasswordPageOverrideSetting>Standard</forgotPasswordPageOverrideSetting>
+        <homePageOverrideSetting>Designer</homePageOverrideSetting>
+        <loginPageOverrideSetting>Standard</loginPageOverrideSetting>
+        <selfRegProfilePageOverrideSetting>Standard</selfRegProfilePageOverrideSetting>
+    </networkPageOverrides>
+    <picassoSite>OnePak_Training_C</picassoSite>
+    <selfRegistration>true</selfRegistration>
+    <sendWelcomeEmail>true</sendWelcomeEmail>
+    <site>OnePak_Training</site>
+    <status>Live</status>
+    <tabs>
+        <defaultTab>home</defaultTab>
+        <standardTab>Chatter</standardTab>
+    </tabs>
+    <welcomeTemplate>unfiled$public/Communities_New_Member_Welcome_Email1</welcomeTemplate>
+</Network>

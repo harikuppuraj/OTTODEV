@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>email letterhead with no text body - just header, footer and best regards</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>OnePak_letterhead</letterhead>
+    <name>Blank email letterhead</name>
+    <style>freeForm</style>
+    <subject>OnePak</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+Are you wasting money on resolving claims for missing, wrong and damaged I.T. equipment returns?
+
+Claims resolution is expensive for you and a hassle for your clients. And almost every claim is a result of not offering your clients a standardized, trackable return logistics solution.
+
+Are you paying additional logistics costs to re-ship I.T. assets to their final destination? 
+
+Our goal is to eliminate claims and errors before they occur and to increase your profits by providing you, your client, and your receiving facility with technology-driven onsite asset collection services. The cost savings for you are tremendous, and your client relationships are preserved without disputes.
+Are you missing easy revenue by not offering a collection solution for I.T. equipment returns?
+
+If you’re not earning a passive profit by referring your clients to a solution for properly packing and shipping I.T. equipment returns, you’re missing out --and exposing your clients to possible data security risks. 
+
+By simply referring (or requiring) your customers to use OnePak for return logistics, your company could be earning steady commissions on every I.T. equipment return, while improving customer satisfaction.
+Earn more revenue while reducing costs. It’s that simple. 
+
+Partnering with OnePak as your clients’ return logistics solution is as easy as making a referral and linking your web site to our system. We’ll take it from there.
+
+Call us to learn more about how quickly and easily you can turn your I.T. equipment lease returns into profits. You’re losing money every day that you wait. 
+
+Best regards,
+
+Keri Long
+Director of Sales
+ONEPAK, Inc.
+137 Third Avenue, Suite N
+Franklin, TN 37064
+w: 888.625.6116
+c: 508.241.4666
+keri.long@onepak.com 
+
+Never lose an asset!                                                  www.onepak.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

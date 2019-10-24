@@ -6,16 +6,13 @@
         <displayFormat>Default</displayFormat>
         <feedItemType>EmailMessageEvent</feedItemType>
     </caseFeedItemSettings>
-    <caseMergeInLightning>false</caseMergeInLightning>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
-    <defaultCaseFeedLayoutOn>false</defaultCaseFeedLayoutOn>
     <emailToCase>
         <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>
     <enableCaseFeed>false</enableCaseFeed>
     <enableEarlyEscalationRuleTriggers>false</enableEarlyEscalationRuleTriggers>
     <enableSuggestedSolutions>true</enableSuggestedSolutions>
-    <escalateCaseBefore>false</escalateCaseBefore>
     <notifyContactOnCaseComment>false</notifyContactOnCaseComment>
     <notifyDefaultCaseOwner>false</notifyDefaultCaseOwner>
     <notifyOwnerOnCaseComment>false</notifyOwnerOnCaseComment>

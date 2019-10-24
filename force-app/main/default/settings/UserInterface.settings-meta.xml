@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UserInterfaceSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alternateAlohaListView>false</alternateAlohaListView>
+    <enableAsyncRelatedLists>false</enableAsyncRelatedLists>
+    <enableClickjackUserPageHeaderless>false</enableClickjackUserPageHeaderless>
     <enableCollapsibleSections>true</enableCollapsibleSections>
     <enableCollapsibleSideBar>false</enableCollapsibleSideBar>
     <enableCustomObjectTruncate>false</enableCustomObjectTruncate>
@@ -8,6 +11,8 @@
     <enableHoverDetails>false</enableHoverDetails>
     <enableInlineEdit>false</enableInlineEdit>
     <enableNewPageLayoutEditor>true</enableNewPageLayoutEditor>
+    <enablePersonalCanvas>false</enablePersonalCanvas>
+    <enablePrintableListViews>true</enablePrintableListViews>
     <enableProfileCustomTabsets>true</enableProfileCustomTabsets>
     <enableQuickCreate>true</enableQuickCreate>
     <enableTabOrganizer>true</enableTabOrganizer>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Impact Speciality --></label>
+    <name>ilms__Impact_Speciality__c</name>
+    <relationshipLabel><!-- SpecialityBadgesReceived --></relationshipLabel>
+</CustomFieldTranslation>

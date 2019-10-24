@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Course Process --></label>
+    <name>ilms__Course_Process__c</name>
+    <picklistValues>
+        <masterLabel>Design</masterLabel>
+        <translation>Conception</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Published</masterLabel>
+        <translation>Publié</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Review</masterLabel>
+        <translation>Revue</translation>
+    </picklistValues>
+</CustomFieldTranslation>

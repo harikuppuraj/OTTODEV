@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Speciality Book (Deprecated) --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Speciality Book (Deprecated) --></value>
+    </caseValues>
+    <gender><!-- Masculine --></gender>
+    <nameFieldLabel><!-- Speciality Book Number --></nameFieldLabel>
+    <startsWith><!-- Consonant --></startsWith>
+</CustomObjectTranslation>

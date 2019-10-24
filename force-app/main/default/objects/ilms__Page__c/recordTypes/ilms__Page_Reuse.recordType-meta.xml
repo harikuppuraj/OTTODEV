@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ilms__Page_Reuse</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>ilms__Page_Reuse</compactLayoutAssignment>
+    <description>This will allow you to link to &#39;Already created Pages&#39; to enable reuse of assets between Courses and Chapter</description>
+    <label>Page Reuse</label>
+    <picklistValues>
+        <picklist>ilms__Type__c</picklist>
+        <values>
+            <fullName>lesson</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>quiz</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

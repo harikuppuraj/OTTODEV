@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Language --></label>
+    <name>ilms__Language__c</name>
+    <picklistValues>
+        <masterLabel>English</masterLabel>
+        <translation>Anglais</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>French</masterLabel>
+        <translation>Français</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>German</masterLabel>
+        <translation>Allemand</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hindi</masterLabel>
+        <translation>Indien</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tamil</masterLabel>
+        <translation>Tamil</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Telugu</masterLabel>
+        <translation>Telugu</translation>
+    </picklistValues>
+</CustomFieldTranslation>

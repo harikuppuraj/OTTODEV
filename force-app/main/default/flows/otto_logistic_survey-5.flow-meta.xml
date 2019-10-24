@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <interviewLabel>OTTO LOGISTICS SURVEY</interviewLabel>
+    <label>OTTO LOGISTICS SURVEY</label>
+    <processMetadataValues>
+        <name>BrandingSet</name>
+        <value>
+            <stringValue>otto_logistic_survey_5</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>hasWelcomePage</name>
+        <value>
+            <booleanValue>true</booleanValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>overrideActiveVersion</name>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </processMetadataValues>
+    <processType>Survey</processType>
+    <screens>
+        <name>p_416e63e5_742e_43d3_a212_8b3f9b92d70b</name>
+        <label>OnePak Customer Feedback</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>q_807c9dff_34cd_4177_a986_e91188035eb4</name>
+            <dataType>String</dataType>
+            <fieldText>&lt;p&gt;Q1. Overall Experience with the pick up&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>q_b1d5aa31_2074_449c_a61c_0883f5b29131</name>
+            <dataType>String</dataType>
+            <fieldText>&lt;p&gt;Q2. Overall Experience with the OnePak customer service representative on the phone&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>q_3b7c32f8_e1b0_4d72_83f5_eed2d03a8645</name>
+            <dataType>String</dataType>
+            <fieldText>&lt;p&gt;Q3. Overall Experience and interaction with the driver and packing crew&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>q_7bc9bf5d_8d06_4121_b675_a6ff694db35f</name>
+            <dataType>String</dataType>
+            <fieldText>&lt;p&gt;Q4. What was your first impression of the driver and/or crew?&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>q_2aa6a92a_b85f_40c1_9faf_c0e1533930c1</name>
+            <dataType>String</dataType>
+            <fieldText>&lt;p&gt;Q5. Was the driver on time?&lt;/p&gt;</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>q_b765793d_3c85_4fb0_9ec0_ed4574e580e4</name>
+            <dataType>String</dataType>
+            <fieldText>&lt;p&gt;Q6. Was the job itself completed in a reasonable amount of time?&lt;/p&gt;</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>q_508cf2cf_5a56_4ba8_9255_138ca9965a67</name>
+            <dataType>String</dataType>
+            <fieldText>&lt;p&gt;Q7. Was the driver/crew professional and courteous?&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>q_0922b778_c2ca_4dd5_9857_66ff8cf7f918</name>
+            <dataType>String</dataType>
+            <fieldText>&lt;p&gt;Q8. Did the driver and crew bring the proper packing materials?&lt;/p&gt;</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>q_6ef41b6a_2532_408a_9dd3_636c47c6ae85</name>
+            <dataType>String</dataType>
+            <fieldText>&lt;p&gt;Q9. Likely to recommend us for future jobs&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>q_405697ac_0634_4c6d_9326_896e0748f54b</name>
+            <dataType>String</dataType>
+            <fieldText>&lt;p&gt;Q10. To help us improve, what is one thing we could have done better?&lt;/p&gt;</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <pausedText>Survey paused. To pick up where you left off, refresh this page or click the link in your survey invitation.</pausedText>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>welcome_page</name>
+        <label>Welcome Page</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>p_416e63e5_742e_43d3_a212_8b3f9b92d70b</targetReference>
+        </connector>
+        <fields>
+            <name>welcome_question</name>
+            <extensionName>survey:runtimeWelcome</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>label</name>
+                <value>
+                    <stringValue>{!welcome_question_lref_tt}</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>description</name>
+                <value>
+                    <stringValue>{!welcome_question_dref_tt}</stringValue>
+                </value>
+            </inputParameters>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <startElementReference>welcome_page</startElementReference>
+    <textTemplates>
+        <name>thankYouDescriptionTextTemplate</name>
+        <text/>
+    </textTemplates>
+    <textTemplates>
+        <name>thankYouLabelTextTemplate</name>
+        <text>&lt;p&gt;&lt;b&gt;Thank you for taking the time to complete this survey.&lt;/b&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>welcome_question_dref_tt</name>
+        <text>This is a sample survey for the logistic process.</text>
+    </textTemplates>
+    <textTemplates>
+        <name>welcome_question_lref_tt</name>
+        <text>&lt;p&gt;&lt;i style=&quot;font-size: 28px;&quot;&gt;Welcome to &lt;/i&gt;&lt;b style=&quot;font-size: 28px;&quot;&gt;&lt;i&gt;&quot;OnePak&quot; &lt;/i&gt;&lt;/b&gt;&lt;i style=&quot;font-size: 28px;&quot;&gt;survey !!!&lt;/i&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <variables>
+        <name>guestUserLang</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>invitationId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue/>
+        </value>
+    </variables>
+    <variables>
+        <name>previewMode</name>
+        <dataType>Boolean</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </variables>
+    <variables>
+        <name>thankYouDescription</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue>{!thankYouDescriptionTextTemplate}</stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>thankYouLabel</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue>{!thankYouLabelTextTemplate}</stringValue>
+        </value>
+    </variables>
+</Flow>

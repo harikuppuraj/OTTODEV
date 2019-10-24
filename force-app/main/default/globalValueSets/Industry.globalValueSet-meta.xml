@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ATMs</fullName>
+        <default>false</default>
+        <label>ATMs</label>
+    </customValue>
+    <customValue>
+        <fullName>Beverage</fullName>
+        <default>false</default>
+        <label>Beverage</label>
+    </customValue>
+    <customValue>
+        <fullName>Cable &amp; Wire</fullName>
+        <default>false</default>
+        <label>Cable &amp; Wire</label>
+    </customValue>
+    <customValue>
+        <fullName>Crates &amp; Bins</fullName>
+        <default>false</default>
+        <label>Crates &amp; Bins</label>
+    </customValue>
+    <customValue>
+        <fullName>Drums</fullName>
+        <default>false</default>
+        <label>Drums</label>
+    </customValue>
+    <customValue>
+        <fullName>Glass Racks</fullName>
+        <default>false</default>
+        <label>Glass Racks</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf Carts</fullName>
+        <default>false</default>
+        <label>Golf Carts</label>
+    </customValue>
+    <customValue>
+        <fullName>Gym Equipment</fullName>
+        <default>false</default>
+        <label>Gym Equipment</label>
+    </customValue>
+    <customValue>
+        <fullName>Mobile App</fullName>
+        <default>false</default>
+        <label>Mobile App</label>
+    </customValue>
+    <customValue>
+        <fullName>Office Equipment/Copier</fullName>
+        <default>false</default>
+        <label>Office Equipment/Copier</label>
+    </customValue>
+    <customValue>
+        <fullName>Paints &amp; Coatings</fullName>
+        <default>false</default>
+        <label>Paints &amp; Coatings</label>
+    </customValue>
+    <customValue>
+        <fullName>RFID / Track&amp;Trace</fullName>
+        <default>false</default>
+        <label>RFID / Track&amp;Trace</label>
+    </customValue>
+    <description>Global set of industries</description>
+    <masterLabel>Industry</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

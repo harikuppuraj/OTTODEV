@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Industry --></label>
+    <name>Industry_del__c</name>
+    <picklistValues>
+        <masterLabel>ATMs</masterLabel>
+        <translation><!-- ATMs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cable &amp; Wire</masterLabel>
+        <translation><!-- Cable &amp; Wire --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corporate - ITAM</masterLabel>
+        <translation><!-- Corporate - ITAM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Crates, Bins, RPCs</masterLabel>
+        <translation><!-- Crates, Bins, RPCs --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Data Center Relocation</masterLabel>
+        <translation><!-- Data Center Relocation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drums</masterLabel>
+        <translation><!-- Drums --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Education</masterLabel>
+        <translation><!-- Education --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electronics Manu. (OEM) / Distributor</masterLabel>
+        <translation><!-- Electronics Manu. (OEM) / Distributor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electronics Recycler / Remarketer</masterLabel>
+        <translation><!-- Electronics Recycler / Remarketer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electronics Repair / Parts</masterLabel>
+        <translation><!-- Electronics Repair / Parts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electronics VAR/Integrator</masterLabel>
+        <translation><!-- Electronics VAR/Integrator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Engineering</masterLabel>
+        <translation><!-- Engineering --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Environmental</masterLabel>
+        <translation><!-- Environmental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Financial / Leasing</masterLabel>
+        <translation><!-- Financial / Leasing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Glass Racks</masterLabel>
+        <translation><!-- Glass Racks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Golf Carts</masterLabel>
+        <translation><!-- Golf Carts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Government</masterLabel>
+        <translation><!-- Government --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gym Equipment</masterLabel>
+        <translation><!-- Gym Equipment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Healthcare</masterLabel>
+        <translation><!-- Healthcare --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hospitality</masterLabel>
+        <translation><!-- Hospitality --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insurance</masterLabel>
+        <translation><!-- Insurance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lessee</masterLabel>
+        <translation><!-- Lessee --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Logistics Provider</masterLabel>
+        <translation><!-- Logistics Provider --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manufacturing</masterLabel>
+        <translation><!-- Manufacturing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not For Profit</masterLabel>
+        <translation><!-- Not For Profit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office Equipment/Copier Dealer</masterLabel>
+        <translation><!-- Office Equipment/Copier Dealer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Packaging</masterLabel>
+        <translation><!-- Packaging --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Paints &amp; Coatings</masterLabel>
+        <translation><!-- Paints &amp; Coatings --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RFID / Track &amp; Trace</masterLabel>
+        <translation><!-- RFID / Track &amp; Trace --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Raw Materials</masterLabel>
+        <translation><!-- Raw Materials --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retail</masterLabel>
+        <translation><!-- Retail --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Software</masterLabel>
+        <translation><!-- Software --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Telecommunications</masterLabel>
+        <translation><!-- Telecommunications --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

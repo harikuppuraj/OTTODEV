@@ -241,7 +241,13 @@
             <field>Id</field>
         </outputAssignments>
     </recordLookups>
-    <startElementReference>lookupJob</startElementReference>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>lookupJob</targetReference>
+        </connector>
+    </start>
     <status>Active</status>
     <variables>
         <name>CommunityId</name>

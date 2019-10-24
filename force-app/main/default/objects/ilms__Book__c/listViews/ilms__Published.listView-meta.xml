@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ilms__Published</fullName>
+    <columns>NAME</columns>
+    <columns>ilms__Course_Image__c</columns>
+    <columns>ilms__Book_Name__c</columns>
+    <columns>ilms__Brief__c</columns>
+    <columns>ilms__Badge_Image__c</columns>
+    <columns>RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ilms__Status__c</field>
+        <operation>equals</operation>
+        <value>Published</value>
+    </filters>
+    <label>Published</label>
+</ListView>

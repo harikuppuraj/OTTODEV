@@ -1,51 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <types>
-    <members>Account</members>
-<members>AccountContactRole </members>
-<members>Campaign </members>
-<members>CampaignMember </members>
-<members>Case </members>
-<members>CaseComment</members>
-<members>CaseContactRole</members>
-<members>CollaborationGroup </members>
-<members>CollaborationGroupMember </members>
-<members>Contact</members>
-<members>ContentVersion </members>
-
-<members>Contract </members>
-<members>ContractContactRole</members>
-
-<members>EmailMessage </members>
-
-<members>Event</members>
-
-<members>Lead </members>
-
-<members>Opportunity</members>
-<members>OpportunityCompetitor</members>
-<members>OpportunityContactRole </members>
-<members>OpportunityLineItem</members>
-<members>PartnerRole</members>
-
-<members>Pricebook2 </members>
-<members>PricebookEntry </members>
-<members>Product2 </members>
-<members>Site </members>
-<members>Solution </members>
-<members>Task </members>
-<members>User </members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Industry</members>
-        <name>StandardValueSet</name>
-    </types>
-    <types>
+	<types>
+		<members>*</members>
+		<name>ActionLinkGroupTemplate</name>
+	</types>
+	<types>
 		<members>*</members>
 		<name>ApexClass</name>
 	</types>
@@ -53,124 +12,598 @@
 		<members>*</members>
 		<name>ApexComponent</name>
 	</types>
-    <types>
-		<members>*</members>
-		<name>ApexTrigger</name>
-	</types>
-    <types>
-		<members>*</members>
-		<name>Flow</name>
-	</types>
-    <types>
-		<members>*</members>
-		<name>EmailTemplate</name>
-	</types>
-    <types>
-		<members>*</members>
-		<name>PermissionSet</name>
-	</types>
-    <types>
-		<members>*</members>
-		<name>StaticResource</name>
-	</types>
-    <types>
-		<members>*</members>
-		<name>Workflow</name>
-	</types>
-    <types>
-		<members>*</members>
-		<name>RecordType</name>
-	</types>
-    <types>
-		<members>*</members>
-		<name>StaticResource</name>
-	</types>
-    <types>
-		<members>*</members>
-		<name>Settings</name>
-	</types>
-    <types>
-		<members>*</members>
-		<name>PermissionSet</name>
-	</types>
-    <types>
-		<members>*</members>
-		<name>CustomField</name>
-	</types>
-    <types>
-		<members>*</members>
-		<name>AuraDefinitionBundle</name>
-	</types>
-    <types>
-		<members>*</members>
-		<name>FlowDefinition</name>
-	</types>
-    <types>
+	<types>
 		<members>*</members>
 		<name>ApexPage</name>
 	</types>
-    <types>
+	<types>
+		<members>*</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
 		<members>*</members>
 		<name>AppMenu</name>
 	</types>
-    <types>
+	<types>
 		<members>*</members>
 		<name>ApprovalProcess</name>
 	</types>
-    <types>
+	<types>
 		<members>*</members>
 		<name>AssignmentRules</name>
 	</types>
-    <types>
+	<types>
 		<members>*</members>
-		<name>ConnectedApp</name>
+		<name>Audience</name>
 	</types>
-    <types>
+	<types>
+		<members>*</members>
+		<name>AuraDefinitionBundle</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>AuthProvider</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>AutoResponseRules</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>BrandingSet</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CMSConnectSource</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CallCenter</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Certificate</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CleanDataService</name>
+	</types>
+	<types>
 		<members>*</members>
 		<name>Community</name>
 	</types>
-    <types>
+	<types>
+		<members>*</members>
+		<name>CommunityTemplateDefinition</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CommunityThemeDefinition</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ConnectedApp</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ContentAsset</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CorsWhitelistOrigin</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomApplication</name>
+	</types>
+	<types>
 		<members>*</members>
 		<name>CustomApplicationComponent</name>
 	</types>
-    <types>
+	<types>
+		<members>*</members>
+		<name>CustomFeedFilter</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomHelpMenuSection</name>
+	</types>
+	<types>
 		<members>*</members>
 		<name>CustomLabels</name>
 	</types>
-    <types>
+	<types>
 		<members>*</members>
 		<name>CustomMetadata</name>
 	</types>
-    <types>
+	<types>
+		<members>Account</members>
+		<members>AccountBrand</members>
+		<members>AccountContactRelation</members>
+		<members>AccountContactRole</members>
+		<members>ActiveScratchOrg</members>
+		<members>Activity</members>
+		<members>Asset</members>
+		<members>AssetRelationship</members>
+		<members>AssistantProgress</members>
+		<members>AuthorizationForm</members>
+		<members>AuthorizationFormConsent</members>
+		<members>AuthorizationFormDataUse</members>
+		<members>AuthorizationFormText</members>
+		<members>Campaign</members>
+		<members>CampaignMember</members>
+		<members>Case</members>
+		<members>CaseContactRole</members>
+		<members>ChatterActivity</members>
+		<members>CollaborationGroup</members>
+		<members>CollaborationGroupMember</members>
+		<members>Contact</members>
+		<members>ContactPointTypeConsent</members>
+		<members>ContactRequest</members>
+		<members>ContentVersion</members>
+		<members>Contract</members>
+		<members>ContractContactRole</members>
+		<members>DataUseLegalBasis</members>
+		<members>DataUsePurpose</members>
+		<members>DuplicateRecordItem</members>
+		<members>DuplicateRecordSet</members>
+		<members>EmailMessage</members>
+		<members>Event</members>
+		<members>ExchangeUserMapping</members>
+		<members>ExpressionFilter</members>
+		<members>ExpressionFilterCriteria</members>
+		<members>FeedItem</members>
+		<members>ForecastingCategoryMapping</members>
+		<members>Image</members>
+		<members>Individual</members>
+		<members>Job__c</members>
+		<members>Lead</members>
+		<members>Macro</members>
+		<members>MacroAction</members>
+		<members>MacroInstruction</members>
+		<members>MacroUsage</members>
+		<members>NamespaceRegistry</members>
+		<members>NetworkMember</members>
+		<members>Opportunity</members>
+		<members>OpportunityCompetitor</members>
+		<members>OpportunityContactRole</members>
+		<members>OpportunityLineItem</members>
+		<members>Order</members>
+		<members>OrderItem</members>
+		<members>OrgMetricScanResult</members>
+		<members>OrgMetricScanSummary</members>
+		<members>PartnerRole</members>
+		<members>Pricebook2</members>
+		<members>PricebookEntry</members>
+		<members>Product2</members>
+		<members>PromptAction</members>
+		<members>QuickText</members>
+		<members>QuickTextUsage</members>
+		<members>Recommendation</members>
+		<members>RecordAction</members>
+		<members>RecordMergeHistory</members>
+		<members>RequestsForAccessSIQ</members>
+		<members>SFGA__Ad_Group__c</members>
+		<members>SFGA__Google_Campaign__c</members>
+		<members>SFGA__Keyword__c</members>
+		<members>SFGA__Search_Phrase__c</members>
+		<members>SFGA__Text_Ad__c</members>
+		<members>SFGA__Version_33_0_3__c</members>
+		<members>Scorecard</members>
+		<members>ScorecardAssociation</members>
+		<members>ScorecardMetric</members>
+		<members>ScratchOrgInfo</members>
+		<members>Site</members>
+		<members>SocialPersona</members>
+		<members>SocialPost</members>
+		<members>Solution</members>
+		<members>StreamActivityAccess</members>
+		<members>StreamingChannel</members>
+		<members>Survey</members>
+		<members>SurveyInvitation</members>
+		<members>SurveyPage</members>
+		<members>SurveyQuestionChoice</members>
+		<members>SurveyQuestionResponse</members>
+		<members>SurveyResponse</members>
+		<members>SurveySubject</members>
+		<members>SurveyVersion</members>
+		<members>Task</members>
+		<members>Topic</members>
+		<members>TopicAssignment</members>
+		<members>User</members>
+		<members>WorkBadge</members>
+		<members>WorkBadgeDefinition</members>
+		<members>WorkThanks</members>
+		<members>ilms__Book_Tag__c</members>
+		<members>ilms__Book__c</members>
+		<members>ilms__Certification_Course__c</members>
+		<members>ilms__Certification_Path__c</members>
+		<members>ilms__Certification__c</members>
+		<members>ilms__Chapter__c</members>
+		<members>ilms__Event__c</members>
+		<members>ilms__IL_Points__c</members>
+		<members>ilms__Impact_LMS_Fonts__c</members>
+		<members>ilms__Impact_LMS_Points__c</members>
+		<members>ilms__Impact_LMS_Settings__c</members>
+		<members>ilms__Impact_LMS_Styles__c</members>
+		<members>ilms__Library_Book__c</members>
+		<members>ilms__Library__c</members>
+		<members>ilms__Option__c</members>
+		<members>ilms__Page__c</members>
+		<members>ilms__Question__c</members>
+		<members>ilms__Setting__c</members>
+		<members>ilms__Shared_Certifications__c</members>
+		<members>ilms__Sharing_Object__c</members>
+		<members>ilms__Speciality_Book__c</members>
+		<members>ilms__Speciality__c</members>
+		<members>ilms__Tag__c</members>
+		<members>ilms__Topic__c</members>
+		<members>ilms__Topics__c</members>
+		<members>ilms__User_Book__c</members>
+		<members>ilms__User_Certification_Connector__c</members>
+		<members>ilms__User_Certification__c</members>
+		<members>ilms__User_Chapter__c</members>
+		<members>ilms__User_Page__c</members>
+		<members>ilms__User_Question__c</members>
+		<members>ilms__User_Speciality__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomObjectTranslation</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomPageWebLink</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomPermission</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomSite</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>DataCategoryGroup</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>DelegateGroup</name>
+	</types>
+	<types>
 		<members>*</members>
 		<name>DuplicateRule</name>
 	</types>
-    <types>
+	<types>
 		<members>*</members>
+		<name>EclairGeoData</name>
+	</types>
+	<types>
+		<members>EmailToSalesforce</members>
+		<name>EmailServicesFunction</name>
+	</types>
+	<types>
+		<members>unfiled$public/Blank_email_letterhead</members>
+		<members>unfiled$public/Communities_New_Member_Welcome_Email1</members>
+		<members>unfiled$public/CommunityChangePasswordEmailTemplate</members>
+		<members>unfiled$public/CommunityForgotPasswordEmailTemplate</members>
+		<members>unfiled$public/CommunityLockoutEmailTemplate</members>
+		<members>unfiled$public/CommunityVerificationEmailTemplate</members>
+		<members>unfiled$public/CommunityWelcomeEmailTemplate</members>
+		<members>unfiled$public/ContactFollowUpSAMPLE</members>
+		<members>unfiled$public/Course_Assignment</members>
+		<members>unfiled$public/Embed_a_Survey_Link</members>
+		<members>unfiled$public/Embed_a_Survey_Question</members>
+		<members>unfiled$public/Itex_2016_Invite</members>
+		<members>unfiled$public/Leasing</members>
+		<members>unfiled$public/Leasing_Intro_on_letterhead</members>
+		<members>unfiled$public/San_Antonio_Invitation</members>
+		<members>unfiled$public/SaveTheDate</members>
+		<members>unfiled$public/Survey_Template</members>
+		<name>EmailTemplate</name>
+	</types>
+	<types>
+		<members>Case</members>
 		<name>EscalationRules</name>
 	</types>
-   
-    <types>
+	<types>
 		<members>*</members>
 		<name>ExternalDataSource</name>
 	</types>
-    <types>
+	<types>
+		<members>*</members>
+		<name>ExternalServiceRegistration</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>FlexiPage</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Flow</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>FlowCategory</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>FlowDefinition</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>GlobalValueSet</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>GlobalValueSetTranslation</name>
+	</types>
+	<types>
 		<members>*</members>
 		<name>Group</name>
 	</types>
-    <types>
+	<types>
+		<members>*</members>
+		<name>HomePageComponent</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>HomePageLayout</name>
+	</types>
+	<types>
 		<members>*</members>
 		<name>InstalledPackage</name>
 	</types>
-    <types>
+	<types>
+		<members>*</members>
+		<name>KeywordList</name>
+	</types>
+	<types>
 		<members>*</members>
 		<name>Layout</name>
 	</types>
-    <types>
-		<members>*</members>
+	<types>
+		<members>LeadConvertSettings</members>
 		<name>LeadConvertSettings</name>
 	</types>
-
-    
-    <version>46.0</version>
+	<types>
+		<members>Invitation</members>
+		<members>OnePak_letterhead</members>
+		<members>SaveTheDate</members>
+		<name>Letterhead</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>LightningBolt</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>LightningExperienceTheme</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ManagedTopics</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>MatchingRules</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ModerationRule</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>NamedCredential</name>
+	</types>
+	<types>
+		<members>Default_Navigation</members>
+		<members>TileMenu</members>
+		<name>NavigationMenu</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Network</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>NetworkBranding</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>PathAssistant</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>PermissionSet</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>PlatformCachePartition</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>PostTemplate</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Profile</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ProfilePasswordPolicy</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ProfileSessionSetting</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Queue</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>QuickAction</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>RecommendationStrategy</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>RecordActionDeployment</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ReportType</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Role</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>SamlSsoConfig</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Scontrol</name>
+	</types>
+	<types>
+		<members>Account</members>
+		<members>Actions</members>
+		<members>Activities</members>
+		<members>Address</members>
+		<members>Analytics</members>
+		<members>Apex</members>
+		<members>AppExperience</members>
+		<members>Archive</members>
+		<members>Blockchain</members>
+		<members>BusinessHours</members>
+		<members>Campaign</members>
+		<members>Case</members>
+		<members>Chatter</members>
+		<members>ChatterEmailsMD</members>
+		<members>Communities</members>
+		<members>Company</members>
+		<members>ConnectedApp</members>
+		<members>Content</members>
+		<members>Contract</members>
+		<members>Currency</members>
+		<members>Deployment</members>
+		<members>DevHub</members>
+		<members>Discovery</members>
+		<members>EAC</members>
+		<members>EmailAdministration</members>
+		<members>EmailIntegration</members>
+		<members>EmailTemplate</members>
+		<members>EncryptionKey</members>
+		<members>EnhancedNotes</members>
+		<members>Entitlement</members>
+		<members>Essentials</members>
+		<members>EssentialsTrialOrg</members>
+		<members>Event</members>
+		<members>ExternalServices</members>
+		<members>FileUploadAndDownloadSecurity</members>
+		<members>FilesConnect</members>
+		<members>Flow</members>
+		<members>Forecasting</members>
+		<members>Formula</members>
+		<members>GoogleApps</members>
+		<members>Ideas</members>
+		<members>Industries</members>
+		<members>InvocableAction</members>
+		<members>IsvHammer</members>
+		<members>Language</members>
+		<members>LeadConfig</members>
+		<members>LightningExperience</members>
+		<members>Macro</members>
+		<members>MapsAndLocation</members>
+		<members>Mobile</members>
+		<members>MyDomain</members>
+		<members>Name</members>
+		<members>Notifications</members>
+		<members>ObjectLinking</members>
+		<members>OmniChannel</members>
+		<members>Opportunity</members>
+		<members>Order</members>
+		<members>Org</members>
+		<members>OrgPreference</members>
+		<members>Pardot</members>
+		<members>PardotEinstein</members>
+		<members>PartyDataModel</members>
+		<members>PathAssistant</members>
+		<members>Picklist</members>
+		<members>PlatformEncryption</members>
+		<members>Privacy</members>
+		<members>Product</members>
+		<members>Quote</members>
+		<members>RecordPage</members>
+		<members>RetailExecution</members>
+		<members>Schema</members>
+		<members>Search</members>
+		<members>Security</members>
+		<members>Sharing</members>
+		<members>Site</members>
+		<members>SocialCustomerService</members>
+		<members>SocialProfile</members>
+		<members>Survey</members>
+		<members>SystemNotification</members>
+		<members>Trailhead</members>
+		<members>UserEngagement</members>
+		<members>UserInterface</members>
+		<members>UserManagement</members>
+		<members>Voice</members>
+		<members>WorkDotCom</members>
+		<name>Settings</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>SharingRules</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>SharingSet</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>SiteDotCom</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>StandardValueSetTranslation</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>StaticResource</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>SynonymDictionary</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>TopicsForObjects</name>
+	</types>
+	<types>
+		<members>OnePak Training.Customer_Members</members>
+		<members>OnePak Training.Members_without_contribution</members>
+		<members>OnePak Training.Partner_and_Customer_members</members>
+		<name>UserCriteria</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Workflow</name>
+	</types>
+	<version>47.0</version>
 </Package>

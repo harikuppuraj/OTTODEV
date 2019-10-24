@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ilms__Library_Sharing_Groups__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Library Sharing Groups</label>
+    <referenceTo>ilms__Library__c</referenceTo>
+    <relationshipLabel>Shared Certifications</relationshipLabel>
+    <relationshipName>Shared_Certifications</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

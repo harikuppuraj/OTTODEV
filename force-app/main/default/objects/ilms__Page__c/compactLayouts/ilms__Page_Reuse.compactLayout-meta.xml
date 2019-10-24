@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ilms__Page_Reuse</fullName>
+    <fields>ilms__Page_Name__c</fields>
+    <fields>ilms__Chapter__c</fields>
+    <fields>ilms__Page_Reuse__c</fields>
+    <fields>ilms__Previous_Page_Dependency__c</fields>
+    <fields>ilms__Duration__c</fields>
+    <fields>ilms__No__c</fields>
+    <label>Page Reuse</label>
+</CompactLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Next_Steps__c</fullName>
+    <externalId>false</externalId>
+    <label>Next Steps</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Call</fullName>
+                <default>false</default>
+                <label>Call</label>
+            </value>
+            <value>
+                <fullName>Conference Call</fullName>
+                <default>false</default>
+                <label>Conference Call</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Escalate</fullName>
+                <default>false</default>
+                <label>Escalate</label>
+            </value>
+            <value>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+                <label>Meeting</label>
+            </value>
+            <value>
+                <fullName>Snail mail</fullName>
+                <default>false</default>
+                <label>Snail mail</label>
+            </value>
+            <value>
+                <fullName>Presentation</fullName>
+                <default>false</default>
+                <label>Presentation</label>
+            </value>
+            <value>
+                <fullName>Pending Internally</fullName>
+                <default>false</default>
+                <label>Pending Internally</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

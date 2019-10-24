@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingReasons>
+        <label><!-- Impact LMS Manager --></label>
+        <name>ilms__Impact_LMS_Manager</name>
+    </sharingReasons>
+</CustomObjectTranslation>

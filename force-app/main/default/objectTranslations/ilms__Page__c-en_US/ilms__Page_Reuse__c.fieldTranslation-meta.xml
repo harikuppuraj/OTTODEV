@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This will allow you to link to other content Pages and reuse then in other Courses or Chapters. --></help>
+    <label><!-- Page Reuse --></label>
+    <name>ilms__Page_Reuse__c</name>
+    <relationshipLabel><!-- Pages (Page Reuse) --></relationshipLabel>
+</CustomFieldTranslation>

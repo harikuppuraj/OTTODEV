@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ilms__Total_Points__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>($Setup.ilms__IL_Points__c.ilms__Course_Started__c +  $Setup.ilms__IL_Points__c.ilms__Course_Completed__c)+ 
+( (ilms__Pages_Count__c - ilms__Quizzes_Count__c)*  $Setup.ilms__IL_Points__c.ilms__Page_Completed__c ) +(  ilms__Quizzes_Count__c *  $Setup.ilms__IL_Points__c.ilms__Quiz_Passed__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Points</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

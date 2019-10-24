@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Suivez vos objectifs d&#39;achèvement. Assurez-vous que vous avez fixé un objectif dans le champ «Cours - Objectif d&#39;achèvement».</help>
+    <label><!-- Results - % of Target Goal --></label>
+    <name>ilms__Results_of_Target_Goal__c</name>
+</CustomFieldTranslation>

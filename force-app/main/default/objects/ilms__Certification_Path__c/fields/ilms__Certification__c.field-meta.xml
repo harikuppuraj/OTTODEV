@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ilms__Certification__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Certification</label>
+    <referenceTo>ilms__Certification__c</referenceTo>
+    <relationshipLabel>Certification Paths</relationshipLabel>
+    <relationshipName>Certification_Paths</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

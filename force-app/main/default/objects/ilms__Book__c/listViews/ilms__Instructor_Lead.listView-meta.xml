@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ilms__Instructor_Lead</fullName>
+    <columns>NAME</columns>
+    <columns>ilms__Course_Image__c</columns>
+    <columns>ilms__Book_Name__c</columns>
+    <columns>ilms__Brief__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>ilms__Book__c.ilms__Instructor</value>
+    </filters>
+    <label>Instructor Lead</label>
+</ListView>

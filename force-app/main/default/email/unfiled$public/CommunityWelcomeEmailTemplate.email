@@ -1,0 +1,15 @@
+Hi {!Receiving_User.FirstName},
+
+{!Receiving_User.FirstName} {!Receiving_User.LastName}  performs asset recovery pickups for OnePak.
+
+In order to continue working with OnePak, each driver needs to go through a quick online training session.
+
+Please click this link to register with OnePak so we can enroll you in this training before your next pickup: {!Community_Url}
+
+Username: {!Receiving_User.Username}
+
+Thanks!
+Shawn Stockman
+OnePak Technical Training Online
+shawn@onepak.com
+207-236-4222

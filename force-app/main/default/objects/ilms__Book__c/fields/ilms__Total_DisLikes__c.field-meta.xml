@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ilms__Total_DisLikes__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Total DisLikes</label>
+    <summaryFilterItems>
+        <field>ilms__User_Book__c.ilms__Liking__c</field>
+        <operation>equals</operation>
+        <value>DisLike</value>
+    </summaryFilterItems>
+    <summaryForeignKey>ilms__User_Book__c.ilms__Book__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ilms__Library_Course</fullName>
+    <fields>ilms__Library__c</fields>
+    <fields>ilms__Course_Image__c</fields>
+    <fields>ilms__Course_Name__c</fields>
+    <label>Library Course</label>
+</CompactLayout>

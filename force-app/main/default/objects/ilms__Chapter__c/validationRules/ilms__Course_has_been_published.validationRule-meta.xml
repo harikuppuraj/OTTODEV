@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ilms__Course_has_been_published</fullName>
+    <active>true</active>
+    <errorConditionFormula>ilms__Book__r.ilms__wasPublished__c == true</errorConditionFormula>
+    <errorMessage>The course has been Published. Unfortunately, you can no longer make changes to the Course and it&#39;s contents. You will need to &#39;Clone&#39; the course to make any changes.</errorMessage>
+</ValidationRule>

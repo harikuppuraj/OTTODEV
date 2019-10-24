@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Chapter --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Chapter --></value>
+    </caseValues>
+    <gender><!-- Masculine --></gender>
+    <nameFieldLabel><!-- Chapter Number --></nameFieldLabel>
+    <startsWith><!-- Consonant --></startsWith>
+    <validationRules>
+        <errorMessage><!-- The course has been Published. Unfortunately, you can no longer make changes to the Course and it&apos;s contents. You will need to &apos;Clone&apos; the course to make any changes. --></errorMessage>
+        <name>ilms__Course_has_been_published</name>
+    </validationRules>
+</CustomObjectTranslation>

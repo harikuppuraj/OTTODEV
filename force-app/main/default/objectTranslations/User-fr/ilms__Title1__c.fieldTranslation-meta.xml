@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Title1 --></label>
+    <name>ilms__Title1__c</name>
+    <picklistValues>
+        <masterLabel>Conseiller</masterLabel>
+        <translation><!-- Conseiller --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patron du call center</masterLabel>
+        <translation><!-- Patron du call center --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Responsable d&#39;équipe /Superviseur</masterLabel>
+        <translation><!-- Responsable d&apos;équipe /Superviseur --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Responsable de portefeuille</masterLabel>
+        <translation><!-- Responsable de portefeuille --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Siège &amp; Admin LMS</masterLabel>
+        <translation><!-- Siège &amp; Admin LMS --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

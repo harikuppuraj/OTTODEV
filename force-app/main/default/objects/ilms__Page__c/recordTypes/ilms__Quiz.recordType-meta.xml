@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ilms__Quiz</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>ilms__Page_Highlights</compactLayoutAssignment>
+    <description>This is used to create a Quiz as part of your Course.</description>
+    <label>Quiz</label>
+    <picklistValues>
+        <picklist>ilms__Type__c</picklist>
+        <values>
+            <fullName>lesson</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>quiz</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

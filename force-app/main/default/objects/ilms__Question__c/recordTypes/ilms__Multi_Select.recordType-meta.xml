@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ilms__Multi_Select</fullName>
+    <active>true</active>
+    <description>Ability to select from multiple choices, and have multiple right answers.</description>
+    <label>Multi_Select</label>
+</RecordType>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ilms__Compact_Chapter</fullName>
+    <fields>ilms__Chapter_Name__c</fields>
+    <fields>ilms__Book__c</fields>
+    <fields>ilms__Pages_Count__c</fields>
+    <fields>ilms__Quizzes_Count__c</fields>
+    <label>Compact Chapter</label>
+</CompactLayout>

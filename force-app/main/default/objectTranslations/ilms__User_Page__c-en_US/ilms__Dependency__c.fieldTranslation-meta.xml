@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Dependency --></label>
+    <name>ilms__Dependency__c</name>
+    <relationshipLabel><!-- User Pages (Dependency) --></relationshipLabel>
+</CustomFieldTranslation>

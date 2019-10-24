@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Invitation</letterhead>
+    <name>Itex 2016 Invite</name>
+    <style>formalLetter</style>
+    <subject>15 minutes gets you a free copier return!</subject>
+    <textOnly>BREAKING NEWS!
+15 minutes gets you a FREE copier return! 
+Stop by our meeting room at ITEX (#M3) to get the details.
+
+Scheduled Returns Service is now available from ReturnCenter, a leading provider of lease return logistics in the copier industry. 
+
+This complete end-of-lease return solution includes:
+•      Sending the Letter of Intent and obtaining the Return Authorization
+•      A copier cover and dated ID label for each machine 
+•      Monitoring and scheduling for on-time returns
+•      A flat rate for nationwide logistics
+
+Scheduled Returns Service saves you time and money, reduces risk, and helps your customers avoid late fees and penalties. 
+
+Register today for dealer pricing: www.returncenter.com/srs
+
+Set an appointment or get directions to the booth by contacting:
+ Angel Gonzalez - Cell: (917) 763-9617 or angel.gonzalez@returncenter.com.
+
+Join us for free drinks Tuesday evening: 8:00 until closing
+Hilton Ft. Lauderdale Beach Resort 
+S3 Restaurant &amp; Bar 505 N Fort Lauderdale Beach Blvd
+
+
+We hope to see you there!
+___________________________________________________________________
+
+If you we miss you at ITEX, please stop by our booth at BTA&#39;s Spring Break in New Orleans March 18-19!</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

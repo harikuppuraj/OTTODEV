@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ilms__All</fullName>
+    <columns>NAME</columns>
+    <columns>ilms__Course_Image__c</columns>
+    <columns>ilms__Book_Name__c</columns>
+    <columns>ilms__Status__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

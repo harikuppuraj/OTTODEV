@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Définissez votre objectif d&#39;achèvement. Suivez les progrès ici.</help>
+    <label><!-- Course - Target Completions Goal --></label>
+    <name>ilms__Course_Target_Completions__c</name>
+</CustomFieldTranslation>

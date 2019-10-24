@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This will automatically select the &apos;Mark as complete&apos; button when the user visits a page. --></help>
+    <label><!-- Automatically record user Page View --></label>
+    <name>ilms__Auto_Mark_As_Complete__c</name>
+</CustomFieldTranslation>

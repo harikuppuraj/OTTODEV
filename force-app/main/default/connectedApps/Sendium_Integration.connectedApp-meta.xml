@@ -6,7 +6,6 @@
     <oauthConfig>
         <callbackUrl>https://na33.salesforce.com/services/oauth2/token</callbackUrl>
         <consumerKey>3MVG9VmVOCGHKYBTalbuTqpBnwXiPoe_jAJ.QK82MQNylIOOrbBckpPZ9J1yxHDO_SOVXuAJ1p7wYlTlwS0OD</consumerKey>
-        <isAdminApproved>false</isAdminApproved>
         <scopes>Basic</scopes>
         <scopes>Api</scopes>
         <scopes>Web</scopes>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Question --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Question --></value>
+    </caseValues>
+    <gender><!-- Masculine --></gender>
+    <nameFieldLabel><!-- Question Number --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- Match --></label>
+        <name>ilms__Match</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Ability to select from multiple choices, and have multiple right answers. --></description>
+        <label><!-- Multi_Select --></label>
+        <name>ilms__Multi_Select</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Ability to select from multiple choices, but the user can only select one answer. --></description>
+        <label><!-- Multiple_Choice --></label>
+        <name>ilms__Multiple_Choice</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Ability to allow the user to enter text as their answer. --></description>
+        <label><!-- Text_Match --></label>
+        <name>ilms__Text_Match</name>
+    </recordTypes>
+    <startsWith><!-- Consonant --></startsWith>
+    <validationRules>
+        <errorMessage><!-- The course has been Published. Unfortunately, you can no longer make changes to the Course and it&apos;s contents. You will need to &apos;Clone&apos; the course to make any changes. --></errorMessage>
+        <name>ilms__Course_has_been_published</name>
+    </validationRules>
+</CustomObjectTranslation>

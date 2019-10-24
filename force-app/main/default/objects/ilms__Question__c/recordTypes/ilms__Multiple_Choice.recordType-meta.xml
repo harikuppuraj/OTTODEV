@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ilms__Multiple_Choice</fullName>
+    <active>true</active>
+    <description>Ability to select from multiple choices, but the user can only select one answer.</description>
+    <label>Multiple_Choice</label>
+</RecordType>

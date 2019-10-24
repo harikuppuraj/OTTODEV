@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industry_del__c</fullName>
+    <externalId>false</externalId>
+    <label>Industry</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ATMs</fullName>
+                <default>false</default>
+                <label>ATMs</label>
+            </value>
+            <value>
+                <fullName>Cable &amp; Wire</fullName>
+                <default>false</default>
+                <label>Cable &amp; Wire</label>
+            </value>
+            <value>
+                <fullName>Corporate - ITAM</fullName>
+                <default>false</default>
+                <label>Corporate - ITAM</label>
+            </value>
+            <value>
+                <fullName>Crates, Bins, RPCs</fullName>
+                <default>false</default>
+                <label>Crates, Bins, RPCs</label>
+            </value>
+            <value>
+                <fullName>Data Center Relocation</fullName>
+                <default>false</default>
+                <label>Data Center Relocation</label>
+            </value>
+            <value>
+                <fullName>Drums</fullName>
+                <default>false</default>
+                <label>Drums</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>Electronics Manu. (OEM) / Distributor</fullName>
+                <default>false</default>
+                <label>Electronics Manu. (OEM) / Distributor</label>
+            </value>
+            <value>
+                <fullName>Electronics Recycler / Remarketer</fullName>
+                <default>false</default>
+                <label>Electronics Recycler / Remarketer</label>
+            </value>
+            <value>
+                <fullName>Electronics Repair / Parts</fullName>
+                <default>false</default>
+                <label>Electronics Repair / Parts</label>
+            </value>
+            <value>
+                <fullName>Electronics VAR/Integrator</fullName>
+                <default>false</default>
+                <label>Electronics VAR/Integrator</label>
+            </value>
+            <value>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+                <label>Engineering</label>
+            </value>
+            <value>
+                <fullName>Environmental</fullName>
+                <default>false</default>
+                <label>Environmental</label>
+            </value>
+            <value>
+                <fullName>Financial / Leasing</fullName>
+                <default>false</default>
+                <label>Financial / Leasing</label>
+            </value>
+            <value>
+                <fullName>Glass Racks</fullName>
+                <default>false</default>
+                <label>Glass Racks</label>
+            </value>
+            <value>
+                <fullName>Golf Carts</fullName>
+                <default>false</default>
+                <label>Golf Carts</label>
+            </value>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <label>Government</label>
+            </value>
+            <value>
+                <fullName>Gym Equipment</fullName>
+                <default>false</default>
+                <label>Gym Equipment</label>
+            </value>
+            <value>
+                <fullName>Healthcare</fullName>
+                <default>false</default>
+                <label>Healthcare</label>
+            </value>
+            <value>
+                <fullName>Hospitality</fullName>
+                <default>false</default>
+                <label>Hospitality</label>
+            </value>
+            <value>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+                <label>Insurance</label>
+            </value>
+            <value>
+                <fullName>Lessee</fullName>
+                <default>false</default>
+                <label>Lessee</label>
+            </value>
+            <value>
+                <fullName>Logistics Provider</fullName>
+                <default>false</default>
+                <label>Logistics Provider</label>
+            </value>
+            <value>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+                <label>Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Not For Profit</fullName>
+                <default>false</default>
+                <label>Not For Profit</label>
+            </value>
+            <value>
+                <fullName>Copier Dealer</fullName>
+                <default>false</default>
+                <label>Office Equipment/Copier Dealer</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Packaging</fullName>
+                <default>false</default>
+                <label>Packaging</label>
+            </value>
+            <value>
+                <fullName>Paints &amp; Coatings</fullName>
+                <default>false</default>
+                <label>Paints &amp; Coatings</label>
+            </value>
+            <value>
+                <fullName>Raw Materials</fullName>
+                <default>false</default>
+                <label>Raw Materials</label>
+            </value>
+            <value>
+                <fullName>Retail</fullName>
+                <default>false</default>
+                <label>Retail</label>
+            </value>
+            <value>
+                <fullName>RFID / Track &amp; Trace</fullName>
+                <default>false</default>
+                <label>RFID / Track &amp; Trace</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Telecommunications</fullName>
+                <default>false</default>
+                <label>Telecommunications</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

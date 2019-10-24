@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Track your completed course targets.  Insure you have set a target goal in the &apos;Course Target Completions Goal&apos; field. --></help>
+    <label><!-- Results - % of Target Goal --></label>
+    <name>ilms__Results_of_Target_Goal__c</name>
+</CustomFieldTranslation>

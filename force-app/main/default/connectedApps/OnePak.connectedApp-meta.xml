@@ -8,7 +8,6 @@
     <oauthConfig>
         <callbackUrl>https://otto.salesforce.com/services/oauth2/callback</callbackUrl>
         <consumerKey>3MVG9VmVOCGHKYBTalbuTqpBnwS8OOI63tVLoWqquXl0Y6OGiW4HKWxHMANEadRHuD2rWRwtc_NyVK09atYGH</consumerKey>
-        <isAdminApproved>false</isAdminApproved>
         <scopes>Api</scopes>
         <scopes>Full</scopes>
     </oauthConfig>

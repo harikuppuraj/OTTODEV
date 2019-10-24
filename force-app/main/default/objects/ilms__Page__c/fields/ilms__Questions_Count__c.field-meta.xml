@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ilms__Questions_Count__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Number of Questions</label>
+    <summaryForeignKey>ilms__Question__c.ilms__Page__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>
